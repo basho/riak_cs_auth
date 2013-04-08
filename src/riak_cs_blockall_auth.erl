@@ -22,7 +22,7 @@
 
 -behavior(riak_cs_auth).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -export([identify/2,authenticate/4]).
 

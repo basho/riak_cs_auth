@@ -25,8 +25,8 @@
 
 -behaviour(riak_cs_policy).
 
--include("riak_cs.hrl").
--include("s3_api.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
+-include_lib("riak_cs_core/include/s3_api.hrl").
 -include_lib("webmachine/include/wm_reqdata.hrl").
 -include_lib("riak_pb/include/riak_pb_kv_codec.hrl").
 

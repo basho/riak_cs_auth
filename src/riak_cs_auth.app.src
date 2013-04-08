@@ -1,0 +1,12 @@
+{application, riak_cs_auth,
+ [
+  {description, "Authentication schemes for Riak CS"},
+  {vsn, "1.3"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { riak_cs_auth_app, []}},
+  {env, []}
+ ]}.
